@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "displayName": "Deny-Public-IP",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "Prevents creation of Public IP addresses.",
+    "metadata": {
+      "category": "Custom",
+      "createdBy": "2f5834f2-00ee-4e25-8473-ef1e3e678446",
+      "createdOn": "2025-07-29T20:20:43.2217837Z",
+      "updatedBy": null,
+      "updatedOn": null
+    },
+    "version": "1.0.0",
+    "parameters": {},
+    "policyRule": {
+      "if": {
+        "field": "type",
+        "equals": "Microsoft.Network/publicIPAddresses"
+      },
+      "then": {
+        "effect": "deny"
+      }
+    },
+    "versions": [
+      "1.0.0"
+    ]
+  },
+  "id": "/subscriptions/13dc3a92-29e4-4eb6-b753-c73617dcb5c1/providers/Microsoft.Authorization/policyDefinitions/2450fe96-6c6a-4aa8-8964-3657d6e79ad8",
+  "type": "Microsoft.Authorization/policyDefinitions",
+  "name": "2450fe96-6c6a-4aa8-8964-3657d6e79ad8",
+  "systemData": {
+    "createdBy": "alkh0115@algonquinlive.com",
+    "createdByType": "User",
+    "createdAt": "2025-07-29T20:20:43.1327007Z",
+    "lastModifiedBy": "alkh0115@algonquinlive.com",
+    "lastModifiedByType": "User",
+    "lastModifiedAt": "2025-07-29T20:20:43.1327007Z"
+  }
+}
