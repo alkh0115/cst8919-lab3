@@ -52,7 +52,5 @@ All policies were authored as JSON definitions and saved in the [`policy-definit
 ## Video Demo
 You can watch the full demo of this lab on YouTube here:
 
-[![Watch the demo](https://img.youtube.com/vi/JPVzkf-E-I8/0.jpg)](https://youtu.be/JPVzkf-E-I8)
-
 **Link:** [https://youtu.be/JPVzkf-E-I8](https://youtu.be/JPVzkf-E-I8)
 
