@@ -19,7 +19,7 @@ To achieve this, three custom Azure Policies were authored and grouped into an I
 | `Require-ProjectName-Tag` | Requires the `ProjectName` tag to be present on all deployed resources.     | Deny   |
 | `Deny-Public-IP`          | Prevents the creation of public IP addresses.                              | Deny   |
 
-All policies were authored as JSON definitions and saved in the [`policy-definitions/`](./policy-definitions/) folder.
+All policies were authored as JSON definitions and saved in the [`policy-definitions/`](./policy-lab/policy-definitions/) folder.
 
 ---
 
@@ -32,7 +32,7 @@ All policies were authored as JSON definitions and saved in the [`policy-definit
 | Create a Public IP resource                              | ❌ Denied       | ✅ Blocked by Public IP policy       |
 | Deploy VM in Canada Central with `ProjectName` tag       | ✅ Allowed      | ✅ Successfully deployed             |
 
- Screenshots of all test cases are available in the [`screenshots/`](./screenshots/) folder.
+ Screenshots of all test cases are available in the [`screenshots/`](./policy-lab/screenshots/) folder.
 
 ---
 
